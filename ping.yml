@@ -1,0 +1,6 @@
+---
+- host: all
+  tasks:
+  - name:des in am ping to nodes
+  ping:
+  
