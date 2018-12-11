@@ -1,0 +1,8 @@
+---
+- host: all
+  become: yes
+  tasks:
+    -name: des i am going install git 
+    apt:
+      name: git
+      state: present
