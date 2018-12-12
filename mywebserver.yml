@@ -1,5 +1,5 @@
 ---
-- host: ubuntuos
+- hosts: ubuntuos
   become: yes
   tasks:
   - name: des i want ti install webserver on ubuntu(apache2)
